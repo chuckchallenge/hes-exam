@@ -8,6 +8,7 @@
 Node.js 20+
 macOS
 Windows 10
+Ubuntu/Debian or other Linux OS
 
 ### Download
 https://nodejs.org/en
