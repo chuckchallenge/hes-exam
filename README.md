@@ -5,7 +5,7 @@
 ## Project setup
 
 ## Requirements:
-Node.js +
+Node.js 20+
 macOS
 Windows 10
 
