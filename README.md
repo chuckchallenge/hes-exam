@@ -4,6 +4,14 @@
 
 ## Project setup
 
+## Requirements:
+Node.js +
+macOS
+Windows 10
+
+### Download
+https://nodejs.org/en
+
 ### Need installed Node.js
 
 ```bash
