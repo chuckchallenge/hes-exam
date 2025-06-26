@@ -5,11 +5,13 @@
 ## Project setup
 
 ## Requirements:
+```
 Node.js 20+
 macOS
 Windows 10
 Ubuntu 22
-Debian or other Linux OS
+Debian or other Modern Linux OS
+```
 
 ### Download Node.js, installation details, requirements:
 https://nodejs.org/en
@@ -63,13 +65,13 @@ $ npm run test:cov
 ### Endpoints:
 
 #### GET /
-
+```
 Description : Returns a greeting message
 Response :
 "Hello World!"
-
+```
 #### POST /equipment
-
+```
 Description : Adds a new equipment
 Request Body :
 {
@@ -88,9 +90,10 @@ Response:
 "status": true,
 "purchaseDate": "2012-04-23T18:25:43.511Z"
 }
-
+```
 #### GET /equipment
 
+```
 Description : Returns all equipments or a message if no equipments exist
 Response (if equipments exist) :
 [
@@ -105,9 +108,11 @@ Response (if equipments exist) :
 ]
 Response (if no equipments) :
 "There are no equipments here"
+```
 
 #### GET /equipment/:id
 
+```
 Description : Returns a specific equipment by ID
 URL Params : id=[integer]
 Responses :
@@ -128,9 +133,11 @@ Not Found:
 "message": "Equipment not found",
 "error": "Not Found"
 }
+```
 
 #### DELETE /equipment/:id
 
+```
 Description : Deletes a equipment by its ID
 URL Params : id=[integer]
 Response :
@@ -142,5 +149,6 @@ If task not found:
 "message": "Equipment not found",
 "error": "Not Found"
 }
+```
 
 # Thats all
