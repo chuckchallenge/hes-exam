@@ -8,9 +8,10 @@
 Node.js 20+
 macOS
 Windows 10
-Ubuntu/Debian or other Linux OS
+Ubuntu 22
+Debian or other Linux OS
 
-### Download
+### Download Node.js, installation details, requirements:
 https://nodejs.org/en
 
 ### Need installed Node.js
